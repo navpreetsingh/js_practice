@@ -19,7 +19,7 @@
 						var second_name = "Singh";
 						document.write('<p>');
 						document.write(first_name + " " + last_name);
-						document.write('</p>');
+						document.
 					</script>
 				</div>
 			</div>
