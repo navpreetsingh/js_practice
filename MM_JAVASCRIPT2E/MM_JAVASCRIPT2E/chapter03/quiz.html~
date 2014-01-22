@@ -41,7 +41,7 @@
       <script>
 			var msg = "You got " + score;
 			msg += " out of " + ques.length;
-			msg +=" Questions correct.";
+			msg +=" Questions correct: ";
 			document.write("<p>" + msg + "</p>");
 		</script>
       </div>

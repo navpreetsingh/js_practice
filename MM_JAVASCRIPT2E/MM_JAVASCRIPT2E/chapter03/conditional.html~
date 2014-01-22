@@ -8,7 +8,10 @@
 	do{
 		var number = prompt("What is your lucky number?", "");
 		number = parseInt(number, 10);
-	}while (isNaN(number));
+	}
+	while (isNaN(number)){
+		number = prompt("Please, tell me your lucky number.", "");
+	}
 </script>
 </head>
 
