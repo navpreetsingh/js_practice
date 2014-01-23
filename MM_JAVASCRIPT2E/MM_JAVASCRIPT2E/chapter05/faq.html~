@@ -27,8 +27,8 @@
 						$(this).addClass('close');
 					},// end of f1
 					function(){
+						$(this).next('.answer').fadeOut();
 						$(this).removeClass('close');
-						$(this).next('.answer').fadeOut();						
 					} // end of f2
 				);// end of toggle
 			}); // end ready

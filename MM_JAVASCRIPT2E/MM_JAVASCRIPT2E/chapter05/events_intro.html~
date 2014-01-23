@@ -19,7 +19,7 @@
 				
 				$("#button").click(function(evt){
 					//$(this).val("Stop that!");
-					var x = evt.screenX;
+					var x = evt.pageX;
 					var y = evt.pageY;
 					alert("X: " + x + ", Y: " + y);
 				});// end button
