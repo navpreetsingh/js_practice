@@ -37,7 +37,6 @@
 				display: none;	
 				background-color: rgb(255,255,255);
 			}
-			
 			#login label {
 				display: inline-block;
 				width: 100px;
@@ -45,15 +44,12 @@
 				margin: 0 15px 0 0;
 				color: rgb(58,80,123);
 			}
-			
 			#login input {
 				font-size: 14px;					
 			}
-			
 			#login #button {
 				margin-left: 50px;	
 			}
-			
 		</style>
 		<script>
 				$(document).ready(function() {

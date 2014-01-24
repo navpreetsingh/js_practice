@@ -24,16 +24,16 @@
 		<script>
 			$(document).ready(function() {
 				$("#dashboard").hover(function(){
-					$(this).stop().animate({
+					$(this).animate({
 						left: '0',
 						backgroundColor: 'white'						
 					},
-					500,
+					200,
 					'easeInSine'
 					); //end animate		
 				},//end function1
 				function(){
-					$(this).stop().animate({
+					$(this).animate({
 						left: '-92px',
 						backgroundColor: 'rgb(110,138,195)'
 					},

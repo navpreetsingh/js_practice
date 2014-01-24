@@ -12,13 +12,7 @@
 			$(document).ready(function() {
 				$("#gallery a").fancybox({
 					overlayColor : '#060',
-					overlayOpacity : .3,
-					transitionIn: 'elastic',
-					transitionOut: 'elastic',
-					easingIn: 'easeInSine',
-					easingOut: 'easeOutSine',
-					titlePosition: 'outside' ,
-					cyclic: true
+					overlayOpacity : .3
 				});
 			}); // end ready
 		</script>
