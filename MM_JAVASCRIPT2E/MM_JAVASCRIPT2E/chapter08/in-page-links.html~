@@ -11,11 +11,7 @@
 			$(document).ready(function() {
 				var url = location.protocol + '//' + location.hostname;
 				
-				$('.iframe').fancybox({
-					width : '90%',
-					height : '90%',
-					titlePosition: 'outside'
-				});
+				$(".ifr").fancybox();
 			}); // end ready
 		</script>
 	</head>
@@ -35,7 +31,7 @@
 				<div class="main">
 					<h1>View Links on This Page!*</h1>
 					<ul>
-						<li><a href="http://www.smashingmagazine.com/" class="iframe">Smashing Magazine</a></li>
+						<li><a href="http://www.smashingmagazine.com/" class="ifr">Smashing Magazine</a></li>
 			    			<li><a href="http://www.oreilly.com/">O'Reilly.com</a></li>
 			    
 			     			<li><a href="http://www.cosmofarmer.com/">CosmoFarmer.com</a></li>

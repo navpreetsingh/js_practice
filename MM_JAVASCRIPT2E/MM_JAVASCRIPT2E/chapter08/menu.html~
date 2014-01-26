@@ -57,9 +57,7 @@
 			$(document).ready(function() {
 				$("#navigation").navPlugin({
 					'itemWidth' : 150,
-					'itemHeight' :30,
-					'navEffect': 'slide',
-					'speed' : 250
+					'itemHeight' :30
 				}); //end nav Plugin
 			}); // end ready
 		</script>
